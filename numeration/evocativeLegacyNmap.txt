@@ -1,0 +1,103 @@
+# Nmap 7.94SVN scan initiated Tue Apr  1 19:22:34 2025 as: nmap -v -T5 -sV -sT -oN evocativeLegacyNmap.txt 108.62.157.10
+Warning: 108.62.157.10 giving up on port because retransmission cap hit (2).
+Nmap scan report for 108.62.157.10
+Host is up (0.11s latency).
+Not shown: 990 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE       VERSION
+22/tcp   open     ssh           OpenSSH 8.9p1 Ubuntu 3ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+80/tcp   open     http          Caddy httpd
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/https
+445/tcp  filtered microsoft-ds
+2119/tcp filtered gsigatekeeper
+5904/tcp filtered ag-swim
+8010/tcp open     ssl/xmpp?
+8088/tcp open     radan-http
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8010-TCP:V=7.94SVN%T=SSL%I=7%D=4/1%Time=67EC9177%P=x86_64-pc-linux-
+SF:gnu%r(GetRequest,12A7,"HTTP/1\.1\x20200\x20OK\r\nContent-Length:\x20450
+SF:6\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nX-Frame-Options:\x20SAMEORIGIN\r\nX
+SF:-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20nosn
+SF:iff\r\nContent-Security-Policy:\x20frame-ancestors\x20'self'\r\n\r\n<!D
+SF:OCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head>\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\n\x20\x20\x20\x20\
+SF:x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=
+SF:8;\x20IE=EDGE\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\"viewp
+SF:ort\"\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20<style\x20type=\"text/css\">\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Helvetica,
+SF:\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20color:\x20#6a6a6a;\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20ce
+SF:nter;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:justify-content:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20input\[type=da
+SF:te\],\x20input\[type=email\],\x20input\[type=number\],\x20input\[type=p
+SF:assword\]")%r(HTTPOptions,12A7,"HTTP/1\.1\x20200\x20OK\r\nContent-Lengt
+SF:h:\x204506\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nCon
+SF:tent-Type:\x20text/html;\x20charset=utf-8\r\nX-Frame-Options:\x20SAMEOR
+SF:IGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options
+SF::\x20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\x20'self'\r
+SF:\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head>
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20cont
+SF:ent=\"IE=8;\x20IE=EDGE\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20nam
+SF:e=\"viewport\"\x20content=\"width=device-width,\x20initial-scale=1\">\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20<style\x20type=\"text/css\">\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20H
+SF:elvetica,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20color:\x20#6a6a6a;\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-ite
+SF:ms:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20justify-content:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20input
+SF:\[type=date\],\x20input\[type=email\],\x20input\[type=number\],\x20inpu
+SF:t\[type=password\]");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8088-TCP:V=7.94SVN%I=7%D=4/1%Time=67EC916A%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,9A,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20app
+SF:lication/json;\x20charset=UTF-8\r\nDate:\x20Wed,\x2002\x20Apr\x202025\x
+SF:2001:22:50\x20GMT\r\nContent-Length:\x2024\r\n\r\n{\"message\":\"Not\x2
+SF:0Found\"}\n")%r(Socks5,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n
+SF:400\x20Bad\x20Request")%r(GenericLines,67,"HTTP/1\.1\x20400\x20Bad\x20R
+SF:equest\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\
+SF:x20close\r\n\r\n400\x20Bad\x20Request")%r(HTTPOptions,9A,"HTTP/1\.0\x20
+SF:404\x20Not\x20Found\r\nContent-Type:\x20application/json;\x20charset=UT
+SF:F-8\r\nDate:\x20Wed,\x2002\x20Apr\x202025\x2001:22:57\x20GMT\r\nContent
+SF:-Length:\x2024\r\n\r\n{\"message\":\"Not\x20Found\"}\n")%r(RTSPRequest,
+SF:67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\
+SF:x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")
+SF:%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text
+SF:/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20R
+SF:equest")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCont
+SF:ent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r
+SF:\n400\x20Bad\x20Request")%r(TerminalServerCookie,67,"HTTP/1\.1\x20400\x
+SF:20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nCo
+SF:nnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(TLSSessionReq,67,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(Ke
+SF:rberos,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/
+SF:plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Re
+SF:quest")%r(FourOhFourRequest,9A,"HTTP/1\.0\x20404\x20Not\x20Found\r\nCon
+SF:tent-Type:\x20application/json;\x20charset=UTF-8\r\nDate:\x20Wed,\x2002
+SF:\x20Apr\x202025\x2001:23:24\x20GMT\r\nContent-Length:\x2024\r\n\r\n{\"m
+SF:essage\":\"Not\x20Found\"}\n")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\
+SF:x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnecti
+SF:on:\x20close\r\n\r\n400\x20Bad\x20Request");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr  1 19:25:04 2025 -- 1 IP address (1 host up) scanned in 150.32 seconds

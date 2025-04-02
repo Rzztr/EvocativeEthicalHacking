@@ -1,0 +1,6 @@
+- Nikto v2.1.5/2.1.5
++ Target Host: am6rzroksejddp.adjustnetwork.co.in
++ Target Port: 80
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ GET /clientaccesspolicy.xml: lines
++ GET /crossdomain.xml: /crossdomain.xml contains 0 line which should be manually viewed for improper domains or wildcards.

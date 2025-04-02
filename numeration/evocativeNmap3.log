@@ -1,0 +1,81 @@
+# Nmap 7.94SVN scan initiated Tue Apr  1 18:15:42 2025 as: nmap -T5 -v -sV -sT -oN evocativeNmap3.log 108.62.60.42
+Increasing send delay for 108.62.60.42 from 0 to 5 due to 23 out of 56 dropped probes since last increase.
+Warning: 108.62.60.42 giving up on port because retransmission cap hit (2).
+Nmap scan report for 108.62.60.42
+Host is up (0.14s latency).
+Not shown: 980 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE      VERSION
+22/tcp    open     ssh          OpenSSH 8.9p1 Ubuntu 3ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+25/tcp    filtered smtp
+80/tcp    open     http         nginx 1.18.0 (Ubuntu)
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+443/tcp   open     ssl/http     nginx 1.18.0 (Ubuntu)
+445/tcp   filtered microsoft-ds
+545/tcp   filtered ekshell
+1175/tcp  filtered dossier
+1580/tcp  filtered tn-tl-r1
+1812/tcp  filtered radius
+2366/tcp  filtered qip-login
+5000/tcp  filtered upnp
+6009/tcp  filtered X11:9
+6668/tcp  filtered irc
+8000/tcp  filtered http-alt
+8010/tcp  open     ssl/xmpp?
+26214/tcp filtered unknown
+49159/tcp filtered unknown
+65129/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8010-TCP:V=7.94SVN%T=SSL%I=7%D=4/1%Time=67EC81D5%P=x86_64-pc-linux-
+SF:gnu%r(GenericLines,12A7,"HTTP/1\.1\x20200\x20OK\r\nContent-Length:\x204
+SF:506\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nContent-Ty
+SF:pe:\x20text/html;\x20charset=utf-8\r\nX-Frame-Options:\x20SAMEORIGIN\r\
+SF:nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Options:\x20no
+SF:sniff\r\nContent-Security-Policy:\x20frame-ancestors\x20'self'\r\n\r\n<
+SF:!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head>\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\n\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"I
+SF:E=8;\x20IE=EDGE\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\"vie
+SF:wport\"\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20<style\x20type=\"text/css\">\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Helvetic
+SF:a,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20color:\x20#6a6a6a;\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20
+SF:center;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20justify-content:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20input\[type=
+SF:date\],\x20input\[type=email\],\x20input\[type=number\],\x20input\[type
+SF:=password\]")%r(GetRequest,12A7,"HTTP/1\.1\x20200\x20OK\r\nContent-Leng
+SF:th:\x204506\r\nConnection:\x20close\r\nCache-Control:\x20no-cache\r\nCo
+SF:ntent-Type:\x20text/html;\x20charset=utf-8\r\nX-Frame-Options:\x20SAMEO
+SF:RIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\nX-Content-Type-Option
+SF:s:\x20nosniff\r\nContent-Security-Policy:\x20frame-ancestors\x20'self'\
+SF:r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head
+SF:>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\n\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20con
+SF:tent=\"IE=8;\x20IE=EDGE\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20na
+SF:me=\"viewport\"\x20content=\"width=device-width,\x20initial-scale=1\">\
+SF:n\x20\x20\x20\x20\x20\x20\x20\x20<style\x20type=\"text/css\">\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100%;\n\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20
+SF:Helvetica,\x20Arial,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20color:\x20#6a6a6a;\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-it
+SF:ems:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20justify-content:\x20center;\n\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20}\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20inpu
+SF:t\[type=date\],\x20input\[type=email\],\x20input\[type=number\],\x20inp
+SF:ut\[type=password\]");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr  1 18:18:29 2025 -- 1 IP address (1 host up) scanned in 166.38 seconds

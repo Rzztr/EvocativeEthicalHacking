@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Sun Mar 30 22:10:07 2025 as: nmap -sN -sV -v -oN evocativeNmap2.txt 108.62.60.42
+Nmap scan report for 108.62.60.42
+Host is up (0.064s latency).
+Not shown: 997 open|filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.9p1 Ubuntu 3ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http     nginx 1.18.0 (Ubuntu)
+443/tcp open  ssl/http nginx 1.18.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 30 22:11:32 2025 -- 1 IP address (1 host up) scanned in 85.34 seconds

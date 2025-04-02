@@ -1,0 +1,116 @@
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+# start
+
+NetRange:       108.62.0.0 - 108.62.255.255
+CIDR:           108.62.0.0/16
+NetName:        NET-108-62-0-0-1
+NetHandle:      NET-108-62-0-0-1
+Parent:         NET108 (NET-108-0-0-0-0)
+NetType:        Direct Allocation
+OriginAS:       AS15003
+Organization:   Leaseweb USA, Inc. (LU)
+RegDate:        2010-12-13
+Updated:        2021-02-15
+Ref:            https://rdap.arin.net/registry/ip/108.62.0.0
+
+
+
+OrgName:        Leaseweb USA, Inc.
+OrgId:          LU
+Address:        9480 Innovation Dr
+City:           Manassas
+StateProv:      VA
+PostalCode:     20109
+Country:        US
+RegDate:        2010-09-13
+Updated:        2024-11-25
+Comment:        www.leaseweb.com
+Ref:            https://rdap.arin.net/registry/entity/LU
+
+
+OrgAbuseHandle: LUAD3-ARIN
+OrgAbuseName:   Leaseweb US abuse dept
+OrgAbusePhone:  +1-571-814-3777 
+OrgAbuseEmail:  abuse@us.leaseweb.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/LUAD3-ARIN
+
+OrgNOCHandle: LEASE-ARIN
+OrgNOCName:   Leaseweb ARIN
+OrgNOCPhone:  +1-571-814-3777 
+OrgNOCEmail:  arin@us.leaseweb.com
+OrgNOCRef:    https://rdap.arin.net/registry/entity/LEASE-ARIN
+
+OrgTechHandle: LEASE-ARIN
+OrgTechName:   Leaseweb ARIN
+OrgTechPhone:  +1-571-814-3777 
+OrgTechEmail:  arin@us.leaseweb.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/LEASE-ARIN
+
+# end
+
+
+# start
+
+NetRange:       108.62.152.0 - 108.62.159.255
+CIDR:           108.62.152.0/21
+NetName:        108-62-152-0
+NetHandle:      NET-108-62-152-0-1
+Parent:         NET-108-62-0-0-1 (NET-108-62-0-0-1)
+NetType:        Reallocated
+OriginAS:       
+Organization:   LeaseWeb USA, Inc. Seattle (LUS-8)
+RegDate:        2022-03-27
+Updated:        2022-03-27
+Ref:            https://rdap.arin.net/registry/ip/108.62.152.0
+
+
+OrgName:        LeaseWeb USA, Inc. Seattle
+OrgId:          LUS-8
+Address:        12201 Tukwila International Blvd Suite
+City:           Seattle
+StateProv:      WA
+PostalCode:     98168
+Country:        US
+RegDate:        2017-07-26
+Updated:        2018-11-19
+Ref:            https://rdap.arin.net/registry/entity/LUS-8
+
+
+OrgAbuseHandle: LUAD3-ARIN
+OrgAbuseName:   Leaseweb US abuse dept
+OrgAbusePhone:  +1-571-814-3777 
+OrgAbuseEmail:  abuse@us.leaseweb.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/LUAD3-ARIN
+
+OrgTechHandle: LUNOD-ARIN
+OrgTechName:   LeaseWeb USA, Inc Network Operations Department
+OrgTechPhone:  +1-480-212-1710 
+OrgTechEmail:  netops@us.leaseweb.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/LUNOD-ARIN
+
+# end
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2025, American Registry for Internet Numbers, Ltd.
+#
+
