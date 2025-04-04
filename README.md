@@ -33,4 +33,4 @@ Se sospecha que la página analizada forma parte de una red de sitios fraudulent
 - Usar herramientas de monitoreo para detectar conexiones no autorizadas.
 
 ---
-##VER CARPETA DE IMAGENES PARA REFERENCIA DE EVIDENCIA
+## VER CARPETA DE IMAGENES PARA REFERENCIA DE EVIDENCIA
