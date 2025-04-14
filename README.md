@@ -1,4 +1,5 @@
-# Análisis de Página con Malware
+# adjustnetwork.co.in
+# Posible inyector de malware o adware
 
 ## Descripción
 Se ha encontrado una página maliciosa que muestra notificaciones de alerta sobre un supuesto virus instalado en el sistema Windows. Estas alertas buscan engañar a los usuarios para que crean que su equipo está infectado y posiblemente los redirigen a sitios peligrosos.
